@@ -7,26 +7,86 @@
 
 .navigation{
     background-color: navy;
-    padding: 15px;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
  
 }
 
 
-.nav-list{
-   
-    display: flex;
+
+.header{
+    color: white;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding:2px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 
-.nav-list li{
-    background-color: white;
+
+.header:hover{
+    color: yellow;
+    border: 2px solid red;
+    transition: .5s;
+   
+}
+
+
+
+.nav-list-all{
+   
+    display: flex;
+    padding: 5px;
+    
+    
+}
+
+
+.nav-list-all li{
+    color: white;
+    background-color: black;
     padding: 5px;
     margin-right: 5px;
     border-radius: 5px;
     width: 100px;
     text-align: center;
-    transition: 0.5s;
-    
+    text-decoration: none;
 
+
+}
+
+
+
+.nav-list-all li:hover{
+    background-color: rgb(18, 177, 45);
+    transition: .7s;
+}
+
+
+
+
+
+.description{
+    background-color: rgb(20, 2, 48);
+    color: white;
+    font-size: 120%;
+    padding: 25px;
+    width: 90%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 25px;
+    border: 5px solid white;
+}
+
+
+
+
+
+body{
+    background-color: powderblue;
+    font-family: sans-serif;
 }
